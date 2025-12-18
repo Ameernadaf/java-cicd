@@ -1,0 +1,6 @@
+enterprise-build-release-demo/
+├── pom.xml
+├── Jenkinsfile
+└── src/
+    ├── main/java/com/company/app/App.java
+    └── test/java/com/company/app/AppTest.java
