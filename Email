@@ -1,0 +1,12 @@
+post {
+  success {
+    emailext subject: "SUCCESS: ${JOB_NAME}",
+             body: "Build Passed",
+             to: "team@example.com"
+  }
+  failure {
+    emailext subject: "FAILED: ${JOB_NAME}",
+             body: "Build Failed",
+             to: "team@example.com"
+  }
+}
