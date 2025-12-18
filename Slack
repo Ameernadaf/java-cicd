@@ -1,0 +1,1 @@
+slackSend channel: '#ci-cd', message: "Build Status: ${currentBuild.result}"
